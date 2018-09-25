@@ -6,9 +6,9 @@
 ![pc](/assets/image/pc.gif)
 
 ## 🔥🔥 Build 🔥🔥
-1. 이 레파지토리를 🍴포크하여 클론합니다.
+1. 이 레파지토리를 클론하여 클론합니다.
 ```
-$ git clone https://github.com/{your-name}/chicken-fry-theme.git
+$ git clone https://github.com/J911/chicken-fry-theme.git
 ```
 2. 디렉토리로 접속하여 `_config.yml`을 수정합니다.
 ```
