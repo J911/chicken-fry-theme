@@ -256,10 +256,12 @@ hr {
     text-align: center;
     background-color: #ffffff;
     box-sizing: border-box;
+    color: #525151;
+    font-size: 0.5rem;
 }
 .footer__logo {
-    height: 30px;
-    margin: -7px 0;
+    height: 20px;
+    margin: -5px 0;
 }
 
 .post {
