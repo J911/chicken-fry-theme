@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="post">
+    <div class="post__cover">
+        <img src="{{ page.cover }}" alt="cover">
+    </div>
+    <h1 class="post__title">{{ page.title | escape }}</h1>
+    
+    <span class="post__date">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+    </span>
+    <div class="post__contents">
+        {{ content }}
+    </div>
+
+    {%- include adsense.html -%}
+
+    {% if page.comments %}
+        {%- include comments.html -%}
+    {% endif %}
+</div>
+<script id="dsq-count-scr" src="//jeiguililyi-gaebal-beulrogeu.disqus.com/count.js" async></script>

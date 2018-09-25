@@ -1,0 +1,23 @@
+<html>
+    {%- include head.html -%}
+<body>
+    <div class="wrapper">
+
+        {%- include loader.html -%}
+
+        {%- include navigator.html -%}
+
+        {%- include side-menu.html -%}
+
+        <div class="main container">
+            {{ content }}
+        </div>
+        
+        {%- include footer.html -%}
+
+    </div>
+
+    {%- include analytics.html -%}
+
+</body>
+</html>
