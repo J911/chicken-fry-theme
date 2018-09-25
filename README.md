@@ -3,6 +3,7 @@
 
 # Chicken Fry Theme
 당신이 치킨을 좋아하는 개발자라고 티를 내십시오.
+![pc](/assets/image/pc.gif)
 
 ## 🔥🔥 Build 🔥🔥
 1. 이 레파지토리를 🍴포크하여 클론합니다.
