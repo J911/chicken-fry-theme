@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<div class="card--group">
-    {%- if site.posts.size > 0 -%}
-    {%- for post in site.posts -%}
+<div class="card--group" id="card-wrapper">
+    {%- if paginator.posts.size > 0 -%}
+    {%- for post in paginator.posts -%}
         <a href="{{ post.url | relative_url }}">
             <div class="card">
                 <div class="card__cover">
@@ -14,7 +14,7 @@ layout: default
                     <h3 class="card__header__title">{{ post.title | escape }}</h3>
                 </div>
                 <div class="card__body">
-                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    {%- assign date_format = paginator.minima.date_format | default: "%b %-d, %Y" -%}
                     {{ post.date | date: date_format }}
                     
                     {{ post.excerpt }}
@@ -24,3 +24,10 @@ layout: default
     {%- endfor -%}
 {%- endif -%}
 </div>
+
+<script src="{{ '/assets/lib/InfiniteScroll.js' }}"></script>
+<script>
+    var postWrapperId = 'card-wrapper';
+    var paginatePath = '/page/'
+    new InfiniteScroll(paginatePath, postWrapperId);
+</script>

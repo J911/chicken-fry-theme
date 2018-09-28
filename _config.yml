@@ -25,6 +25,9 @@ github_username:  J911
 
 google_analytics: UA-126194835-1
 
+paginate: 6
+paginate_path: "/page/:num"
+
 # Produces a cleaner folder structure when using categories
 permalink: /:year/:month/:title.html
 
