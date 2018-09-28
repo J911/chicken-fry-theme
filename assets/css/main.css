@@ -201,7 +201,7 @@ hr {
 
 .card {
     display: inline-block;
-    width:31.8%;
+    width: 307px;
     height: 360px;
     background-color: #fff;
     box-shadow: 0 0 10px #e0e0e0;
@@ -212,7 +212,8 @@ hr {
     margin-right: 5px;
     cursor: pointer;
     overflow: hidden;
-    
+    text-align: left;
+    box-sizing: border-box;
 }
 .card__cover {
     width: 100%;
@@ -313,11 +314,11 @@ hr {
     .container {
         width: 768px;
     }
-    .card {
-        width:31.4%;
-    }
     .card__header__title {
         font-size: 1rem;
+    }
+    .card {
+        width: 243px
     }
 }
 

@@ -2,7 +2,8 @@
 layout: default
 ---
 
-{%- if site.posts.size > 0 -%}
+<div class="card--group">
+    {%- if site.posts.size > 0 -%}
     {%- for post in site.posts -%}
         <a href="{{ post.url | relative_url }}">
             <div class="card">
@@ -22,3 +23,4 @@ layout: default
         </a>
     {%- endfor -%}
 {%- endif -%}
+</div>
