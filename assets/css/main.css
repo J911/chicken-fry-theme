@@ -288,7 +288,9 @@ hr {
 .post__contents {
     line-height: 2.1rem;
 }
-.post__contents pre{
+.post__contents pre,
+.post__contents code.highlighter-rouge
+{
     width: 100%;
     padding: 10px;
     line-height: 1.2rem;
@@ -296,6 +298,10 @@ hr {
     background-color: #2b2b2b;
     border-radius: 3px;
     box-sizing: border-box;
+    color: #fff;
+}
+.post__contents code.highlighter-rouge {
+    padding: 5px;
 }
 .post__contents img {
     display: block;
@@ -307,6 +313,7 @@ hr {
 .post__contents a {
     color: rgb(240, 187, 88);
 }
+
 @media (min-width: 960px) {
     .container {
         width: 960px;
