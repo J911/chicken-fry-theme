@@ -2,6 +2,8 @@
 ![chicken_banner](/assets/image/chicken-banner.png)
 
 # Chicken Fry Theme
+![MIT-LISENCE](https://img.shields.io/badge/license-MIT-blue.svg)
+
 당신이 치킨을 좋아하는 개발자라고 티를 내십시오.
 ![pc](/assets/image/pc.gif)
 
