@@ -235,6 +235,9 @@ hr {
 .card__header__title {
     font-size: 1.2rem;
     margin: 0;
+    overflow:hidden; 
+    text-overflow:ellipsis; 
+    white-space:nowrap;
 }
 .card__body {
     text-align: left;
@@ -305,8 +308,8 @@ hr {
 }
 .post__contents img {
     display: block;
-    width: 100%;
-    max-width: 750px;
+    /* width: 100%; */
+    max-width: 100%;
     margin: 10px auto;
     box-shadow: 0 0 8px rgb(117, 117, 117);
 }
